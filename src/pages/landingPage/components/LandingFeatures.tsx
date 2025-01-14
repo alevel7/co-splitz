@@ -13,7 +13,7 @@ const LandingFeatures = () => {
         with ease.
       </p>
       <div className="grid grid-cols-2 gap-4 ">
-        <section className="bg-[#FFF0D4] rounded-xl p-10 border border-solid border-black">
+        <section className="bg-[#FFF0D4] rounded-xl p-10 border border-solid border-black motion-opacity-in-0 motion-translate-y-in-100 motion-blur-in-md">
           <IoIosPeople className="text-2xl" />
           <h4>Start a CoSplitz Group</h4>
           <p>
@@ -21,7 +21,7 @@ const LandingFeatures = () => {
             Invite your friends or family to collaborate easily.
           </p>
         </section>
-        <section className="bg-[#EBE6FF] rounded-xl p-10 border border-solid border-black">
+        <section className="bg-[#EBE6FF] rounded-xl p-10 border border-solid border-black motion-opacity-in-0 motion-translate-y-in-100 motion-blur-in-md">
           <HiCash className="text-2xl" />
           <h4>Split Expenses</h4>
           <p>
@@ -29,7 +29,7 @@ const LandingFeatures = () => {
             costs, vote on purchases, and adjust contributions in real-time.
           </p>
         </section>
-        <section className="bg-[#D0FDFB] rounded-xl p-10 border border-solid border-black">
+        <section className="bg-[#D0FDFB] rounded-xl p-10 border border-solid border-black motion-opacity-in-0 motion-translate-y-in-100 motion-blur-in-md">
           <FaRegCreditCard className="text-2xl" />
           <h4>Pay your Way</h4>
           <p>
@@ -38,7 +38,7 @@ const LandingFeatures = () => {
             updates make it seamless.
           </p>
         </section>
-        <section className="bg-[#FEE5F0] rounded-xl p-10 border border-solid border-black">
+        <section className="bg-[#FEE5F0] rounded-xl p-10 border border-solid border-black motion-opacity-in-0 motion-translate-y-in-100 motion-blur-in-md">
           <HiChartSquareBar className="text-2xl" />
 
           <h4>Track and Enjoy</h4>

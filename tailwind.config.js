@@ -18,6 +18,7 @@ export default {
   },
   plugins: [
     flowbite.plugin(),
+    require('tailwindcss-motion')
   ],
 }
 

@@ -22,7 +22,10 @@ const LandingFaq = () => {
       <div className=" w-full">
         <ol type="1">
           {questions.map((question, idx) => (
-            <li key={idx} className="p-5 border border-solid border-gray">
+            <li
+              key={idx}
+              className={`p-5 border border-solid border-gray motion-translate-y-in-100`}
+            >
               <section
                 className="flex justify-between items-center cursor-pointer"
                 onClick={() => setSelected(idx)}

@@ -1,12 +1,9 @@
-
-import './App.css'
+import Landing from './pages/landingPage/Landing'
 
 function App() {
 
   return (
-    <>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, soluta.
-    </>
+     <Landing />
   )
 }
 

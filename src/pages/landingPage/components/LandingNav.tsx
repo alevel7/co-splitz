@@ -1,16 +1,18 @@
-import React from 'react'
-import appLogo from '../../../assets/appLogo.svg'
+
+import { Link } from 'react-router-dom';
+import appLogo from '../../../assets/appLogo.svg';
+
 const LandingNav = () => {
   return (
-    <div className="flex justify-between py-5 px-10">
+    <div className="flex justify-between items-center md:py-5 md:px-10">
       <img src={appLogo} alt=" " className="h-12 w-28" />
       <div className="flex gap-10 justify-between">
-        <a className="text-torquoise h-10 w-32 rounded-xl font-bold flex justify-center items-center hover:bg-torquoise hover:text-white cursor-pointer">
+        <Link to="/auth/login" className="text-torquoise h-10 w-32 rounded-xl font-bold flex justify-center items-center hover:bg-torquoise hover:text-white cursor-pointer">
           <span>Login</span>
-        </a>
-        <a className="bg-torquoise text-white h-10 w-32 rounded-xl font-bold flex justify-center items-center cursor-pointer">
+        </Link>
+        <Link to="/auth" className="bg-torquoise text-white h-10 w-32 rounded-xl font-bold flex justify-center items-center cursor-pointer">
           <span>Sign Up</span>
-        </a>
+        </Link>
       </div>
     </div>
   );

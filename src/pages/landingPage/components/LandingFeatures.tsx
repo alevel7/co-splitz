@@ -6,13 +6,13 @@ import { HiChartSquareBar } from "react-icons/hi";
 
 const LandingFeatures = () => {
   return (
-    <div className="w-4/5 m-auto flex flex-col justify-center items-center gap-5 p-10">
+    <div className="w-4/5 m-auto flex flex-col justify-center items-center gap-5 md:p-10">
       <h3 className="text-3xl font-bold">Let’s show you how it works</h3>
       <p className="font-medium">
         Our app simplifies cost sharing, leveling up your expense management
         with ease.
       </p>
-      <div className="grid grid-cols-2 gap-4 ">
+      <div className="grid md:grid-cols-2 gap-4 ">
         <section className="bg-[#FFF0D4] rounded-xl p-10 border border-solid border-black motion-opacity-in-0 motion-translate-y-in-100 motion-blur-in-md">
           <IoIosPeople className="text-2xl" />
           <h4>Start a CoSplitz Group</h4>
